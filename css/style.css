@@ -1,0 +1,107 @@
+*{
+	box-sizing: border-box;
+}
+#body{
+	font-size: 16px;
+	color: #fff;
+	background-color: lightskyblue;
+	font-family: 'Oxygen',sans-serif;
+	padding: 0;
+	
+}
+#header-nav{
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.navbar-brand{
+	padding-top: 25px;
+	padding-left: 0;
+}
+.navbar-brand h1{
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	clear: right;
+	font-family: 'Lora',serif;
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+  text-decoration: none;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a  {
+  font-size: 1.5em;
+}
+#head{
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+#para{
+	color: black;
+
+}
+#para-head{
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+#container{
+	align-content: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#box-container{
+	align-content: center;
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+  font-weight: bold;
+  background-color: grey;
+}
+#box-container1{
+	align-content: center;
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+  font-weight: bold;
+  background-color: grey;
+}
+#para-head1{
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+#para-head2{
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
