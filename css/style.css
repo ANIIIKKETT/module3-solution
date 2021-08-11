@@ -60,7 +60,6 @@
 	font-size: 30px;
 	font-weight: bold;
 	color: black;
-	text-align: center;
 }
 #para{
 	color: black;
@@ -85,14 +84,7 @@
   font-weight: bold;
   background-color: grey;
 }
-#box-container1{
-	align-content: center;
-	height: 100%;
-	width: 100%;
-	padding: 20px;
-  font-weight: bold;
-  background-color: grey;
-}
+
 #para-head1{
 	font-size: 20px;
 	color: black;
@@ -105,3 +97,9 @@
 	font-weight: bold;
 	text-align: center;
 }
+@media(max-width: 767px) {
+    .navbar-toggle{
+        display: visible;
+    }
+}
+
